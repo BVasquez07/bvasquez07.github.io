@@ -1,7 +1,13 @@
+:root{
+  --back-color: linear-gradient(100deg, #575757, #141E30);
+  --prim-color:#292828;
+  --sec-color:#DCDCDC;
+  --ter-color:#92EC67;
+}
 body{
   margin: 0;
   padding: 20px;
-  background-color: linear-gradient(100deg, #575757, #141E30);
+  background-color: var(--back-color);
   font-family: 'Jaldi';
   font-size: 22px;
 }
