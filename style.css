@@ -1,7 +1,11 @@
 body{
   margin: 0;
-  padding: 0;
+  padding: 20px;
   background-color: linear-gradient(100deg, #575757, #141E30);
   font-family: 'Jaldi';
   font-size: 22px;
+}
+h1, h2{
+  margin: 0;
+  border: 3px solid pink;
 }
