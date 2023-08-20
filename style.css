@@ -1,18 +1,24 @@
 :root{
-  --back-color: linear-gradient(100deg, #575757, #141E30);
+  --back-color: linear-gradient(#ffffff, #DCDCDC);
   --prim-color:#292828;
   --sec-color:#DCDCDC;
-  --ter-color:#92EC67;
+  --ter-color:#53c244;
+  --cont-pad: 60px;
+  --box-size: 400px;
 }
 body{
-  margin-top: 100px;
-  padding: 20px;
-  background-color: var(--back-color);
+  padding: var(--cont-pad);
+  background: var(--back-color, black);
   font-family: 'Jaldi';
   font-size: 22px;
+  margin-top: 200px;
 }
-header{
-  margin-bottom: 40px;
+h1{
+  font-size: 100px;
+  margin: 0;
+}
+.top-header{
+  margin-bottom: 300px;
 }
 ul {
   list-style-type: none;
@@ -52,9 +58,57 @@ li img{
   width: 60px;
   height: 60px;
 }
-
-h1, h2{
+.intro{
+  width: 90%;
+  height: 500px;
+  background-image: url('../bvasquez07.github.io/images/me.png');
+  background-position: right;
+  background-size: 400px 500px;
+  background-repeat: no-repeat;
+  
+}
+.intro p{
+  width: 30%;
   margin: 0;
-  border: 3px solid pink;
+  position: behind;
+  font-size: 20px;
+}
+article{
+  width: 80%;
+  margin-right: 0px;
+}
+#projects article .proj{
+  width: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid var(--sec-color);
+  float: right;
+}
+
+#projects article {
+  height: 400px;
+}
+
+h2{
+  margin: 0;
+}
+#projects{
+}
+section, #projects{
+  margin-bottom: 100px;
+  padding: var(--cont-pad);
+  background-color: var(--ter-color);
+  border-radius: 10px;
+}
+
+footer{
+  font-size: small;
+  width: 100px;
+}
+.contacts{
+  height: 20px;
+  width: 20px;
 }
 
