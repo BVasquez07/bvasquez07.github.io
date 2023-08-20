@@ -32,6 +32,7 @@ ul {
   top: 0;
   left: 0;
   overflow: hidden;
+  display: flex;
   position: fixed;
   background-color: var(--prim-color, black);
   width: 100%;
@@ -44,13 +45,14 @@ a{
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 10px;
-  display: block;
+  display: flex;
+  flex-shrink: 1;
 }
 a:hover{
   color: var(--ter-color);
 }
 li a{
-  display: block;
+  display: flex;
   color: var(--second-color, white);
   text-align: center;
   text-decoration: none; 
@@ -58,9 +60,6 @@ li a{
   padding-left: 10px;
   font-size: 25px;
   letter-spacing: 2px;
-}
-li a:focus{
-  color: var(--ter-color);
 }
 li img{
   width: 60px;
